@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 
-export const useTectSelection = () => {
+export const useTextSelection = () => {
 	const [, update] = useState()
 	const forceUpdate = useCallback(() => update({}), [])
 	const [selection, setSelection] = useState(null)
